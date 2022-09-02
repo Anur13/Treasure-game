@@ -1,0 +1,46 @@
+
+.tile {
+  width: 100%;
+  height: 100px;
+  border: 1px solid black;
+}
+.tile:hover{
+  cursor: pointer;
+}
+
+.board {
+  justify-content: center;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+}
+
+.endTurnButton {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100px;
+}
+
+.mark {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.TResType {
+  background-color: green;
+}
+
+.closeResType{
+  background-color: blue;
+}
+
+.midResType{
+  background-color: brown;
+}
+
+.farResType{
+  background-color: orange;
+}

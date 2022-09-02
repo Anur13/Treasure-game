@@ -1,0 +1,20 @@
+{
+  "name": "treasure-game",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:front":"npm --prefix ./frontend run start",
+    "start:back": "npm --prefix ./backend run start:dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anur13/Treasure-game.git"
+  },
+  "author": "Andrii Krupskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anur13/Treasure-game/issues"
+  },
+  "homepage": "https://github.com/Anur13/Treasure-game#readme"
+}
