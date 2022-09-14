@@ -32,6 +32,7 @@ const gameStateReducer = createReducer(false, {
 
 const checkedResultsReducer = createReducer(new Array<IMove>(), {
   [Actions.ADD_RESULTS]: (store, { payload }) => {
+    console.log(payload);
     const results = [...store];
     for (const move of payload) {
       const duplicate = store.find(

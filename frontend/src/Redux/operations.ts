@@ -21,6 +21,7 @@ const submitTurn =
         moves,
         turns,
       })) as IResponse;
+      console.log(data);
       dispatch(addResults(data.moves));
       dispatch(setTreasuresFound(data.foundTreasures));
       if (data.highScores) dispatch(setHighScores(data.highScores));
