@@ -1,12 +1,13 @@
 # Treasure game
 
-This version of the game has backend written in Node.js. Backend in java is on another branch.
+This version of the game has backend written in Node.js. Backend in java is on
+another [branch](https://github.com/Anur13/Treasure-game/tree/backend-java).
 
 ### Start locally:
 
 * Clone the repo
 * Install dependencies
-* From root run ```npm run start:front``` and ```npm run start:back ```
+* Run ```npm run start:front``` and ```npm run start:back ```
 * Enjoy the game
 
 ### Build:
